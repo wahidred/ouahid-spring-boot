@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-autowire="byType">
+
+    <bean id="serviceDrh" class="business.drh.service.ServiceDrhImpl"/>
+    <bean id="employeDao" class="business.drh.dao.EmployeDaoImpl"/>
+    <bean id="salaireDao" class="business.drh.dao.SalaireDaoImpl"/>
+    <bean class="bpp.DebugBpp"></bean>
+
+
+    <!-- <beans profile="dev"> -->
+    <!-- <bean></bean> -->
+    <!-- </beans> -->
+
+    <!-- <beans profile="prod"> -->
+    <!-- <bean></bean> -->
+    <!-- </beans> -->
+
+</beans>

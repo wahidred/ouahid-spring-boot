@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="business.drh.service.ServiceDrhTest_1_Integration_Test_JUNIT_no_tools2"/>
+      <class name="business.drh.service.ServiceDrhTest_2_Integration_Test_JUNIT_no_tools3"/>
+      <class name="business.drh.dao.EmployeDao"/>
+      <class name="business.drh.service.ServiceDrhTest_4_Integration_Test_TestNG_no_tools"/>
+      <class name="business.drh.service.ServiceDrhImpl"/>
+      <class name="bpp.DebugBpp"/>
+      <class name="business.drh.dao.EmployeDaoImpl"/>
+      <class name="business.drh.service.MainHappyPath"/>
+      <class name="business.drh.service.ServiceDrhTest_7_Unit_Test_TestNG_mockito"/>
+      <class name="business.drh.dao.SalaireDao"/>
+      <class name="business.drh.model.Salaire"/>
+      <class name="business.drh.model.Employe"/>
+      <class name="business.drh.service.ServiceDrhTest_6_Unit_Test_TestNG_mockito_listener"/>
+      <class name="business.drh.service.ServiceDrhTest_3_Integration_Test_JUNIT_springtest"/>
+      <class name="business.drh.service.ServiceDrhTest_5_Integration_Test_TestNG_springtest"/>
+      <class name="business.drh.service.ServiceDrh"/>
+      <class name="config.MyConfiguration"/>
+      <class name="business.drh.dao.SalaireDaoImpl"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="business.drh.service.ServiceDrhTest_7_Unit_Test_TestNG_mockito">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="afterClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- business.drh.service.ServiceDrhTest_7_Unit_Test_TestNG_mockito -->
+      <class name="business.drh.service.ServiceDrhTest_6_Unit_Test_TestNG_mockito_listener">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="beforeClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- business.drh.service.ServiceDrhTest_6_Unit_Test_TestNG_mockito_listener -->
+      <class name="business.drh.service.ServiceDrhTest_4_Integration_Test_TestNG_no_tools">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- business.drh.service.ServiceDrhTest_4_Integration_Test_TestNG_no_tools -->
+      <class name="business.drh.service.ServiceDrhTest_5_Integration_Test_TestNG_springtest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="testHappyPath"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- business.drh.service.ServiceDrhTest_5_Integration_Test_TestNG_springtest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
