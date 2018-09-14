@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: tp-salaire-700-spring-boot-jpa
+Implementation-Version: 0.1-SNAPSHOT
+Built-By: academy
+Implementation-Vendor-Id: springtp
+Build-Jdk: 1.8.0_66
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/tp-salaire-700-spring-boot-jpa
+Created-By: Maven Integration for Eclipse
+

@@ -1,13 +1,16 @@
 package business.drh.dao;
 
-import java.util.List;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.data.repository.CrudRepository;
 
 import business.drh.model.Salaire;
 
-public interface SalaireDao {
 
-	Salaire save(Salaire _salaire);
+@EnableJpaRepositories
+public interface SalaireDao  extends CrudRepository<Salaire, Long>{
 
-	List<Salaire> findAll();
+	//Salaire save(Salaire _salaire) ;
+
+	//List<Salaire> findAll();
 
 }
